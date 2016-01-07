@@ -140,11 +140,36 @@
                                     <segue destination="Rh2-3l-s8I" kind="show" id="cjC-Zz-Nck"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chestLocked" translatesAutoresizingMaskIntoConstraints="NO" id="He4-c5-3op">
+                                <rect key="frame" x="460" y="460" width="80" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="ELC-Nl-F2x"/>
+                                    <constraint firstAttribute="width" secondItem="He4-c5-3op" secondAttribute="height" multiplier="40:29" id="N9l-LD-AnF"/>
+                                    <constraint firstAttribute="width" constant="80" id="yCK-08-6lY"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chestLocked" translatesAutoresizingMaskIntoConstraints="NO" id="unp-XA-CVr">
+                                <rect key="frame" x="438" y="147" width="80" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="58" id="GKk-Ah-yPi"/>
+                                    <constraint firstAttribute="width" constant="80" id="VGh-TO-cPi"/>
+                                    <constraint firstAttribute="width" secondItem="unp-XA-CVr" secondAttribute="height" multiplier="40:29" id="k8h-BC-GNV"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="chestLocked" translatesAutoresizingMaskIntoConstraints="NO" id="xCP-Lu-HiH">
+                                <rect key="frame" x="103" y="276" width="80" height="58"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="xCP-Lu-HiH" secondAttribute="height" multiplier="40:29" id="YcM-MQ-piF"/>
+                                    <constraint firstAttribute="width" constant="80" id="uM5-SC-TKS"/>
+                                    <constraint firstAttribute="height" constant="58" id="yt2-hY-o9D"/>
+                                </constraints>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                         <constraints>
                             <constraint firstItem="uGt-6c-Sgh" firstAttribute="bottom" secondItem="wfy-db-euE" secondAttribute="top" id="2dN-tx-Jms"/>
                             <constraint firstItem="ez0-cy-miZ" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="topMargin" constant="17" id="2lm-QS-YSJ"/>
+                            <constraint firstItem="G0Y-gU-EBD" firstAttribute="top" secondItem="xCP-Lu-HiH" secondAttribute="bottom" constant="47" id="6P0-5M-jLT"/>
                             <constraint firstItem="i26-xI-fPU" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="117" id="DSu-h6-BwY"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="G0Y-gU-EBD" secondAttribute="bottom" constant="160" id="EIn-Np-W1h"/>
                             <constraint firstItem="OZk-3Z-iYv" firstAttribute="trailing" secondItem="pxr-ud-Qw0" secondAttribute="trailing" id="FbO-Oe-X2j"/>
@@ -152,12 +177,17 @@
                             <constraint firstAttribute="trailing" secondItem="uGt-6c-Sgh" secondAttribute="trailing" id="Hcf-7O-byr"/>
                             <constraint firstItem="N5A-sJ-YQ4" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="127" id="I2t-59-L8d"/>
                             <constraint firstItem="pxr-ud-Qw0" firstAttribute="top" secondItem="8bC-Xf-vdC" secondAttribute="top" id="INb-CC-z6a"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="He4-c5-3op" secondAttribute="bottom" constant="82" id="Kl4-zn-nDM"/>
                             <constraint firstItem="kDY-Ro-mII" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="44" id="NHW-QH-ZzX"/>
+                            <constraint firstAttribute="trailing" secondItem="He4-c5-3op" secondAttribute="trailing" constant="60" id="NNm-g2-qfD"/>
                             <constraint firstItem="Baa-mw-JBp" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="55" id="RA4-ke-ap3"/>
                             <constraint firstAttribute="trailingMargin" secondItem="ez0-cy-miZ" secondAttribute="trailing" constant="-14" id="S24-Se-uO5"/>
                             <constraint firstItem="N5A-sJ-YQ4" firstAttribute="leading" secondItem="Baa-mw-JBp" secondAttribute="trailing" constant="-66" id="T39-Z2-GMp"/>
                             <constraint firstItem="OZk-3Z-iYv" firstAttribute="top" secondItem="HYo-zU-2tr" secondAttribute="top" id="TKk-Yb-Ex3"/>
+                            <constraint firstAttribute="trailing" secondItem="unp-XA-CVr" secondAttribute="trailing" constant="82" id="TSp-9Z-Ej9"/>
+                            <constraint firstItem="xCP-Lu-HiH" firstAttribute="leading" secondItem="kDY-Ro-mII" secondAttribute="trailing" constant="-22" id="Tje-VJ-krl"/>
                             <constraint firstItem="uGt-6c-Sgh" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" id="XVc-bl-ogI"/>
+                            <constraint firstItem="unp-XA-CVr" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="127" id="YMn-WC-3st"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="3gs-CO-SHW" secondAttribute="bottom" constant="72" id="b9G-pX-W1W"/>
                             <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="kDY-Ro-mII" secondAttribute="bottom" constant="230" id="cdZ-2b-pKJ"/>
                             <constraint firstAttribute="trailing" secondItem="3gs-CO-SHW" secondAttribute="trailing" constant="147" id="dov-zN-Rkh"/>
@@ -173,6 +203,9 @@
                     <navigationItem key="navigationItem" id="wzA-CJ-3b8"/>
                     <nil key="simulatedTopBarMetrics"/>
                     <connections>
+                        <outlet property="chest" destination="He4-c5-3op" id="bFa-cO-4HS"/>
+                        <outlet property="chest1" destination="xCP-Lu-HiH" id="PkL-vF-di1"/>
+                        <outlet property="chest2" destination="unp-XA-CVr" id="eL9-tb-yLS"/>
                         <outlet property="myMap" destination="uGt-6c-Sgh" id="scf-BN-vEs"/>
                         <outlet property="youarehere1" destination="3gs-CO-SHW" id="weu-KC-kDc"/>
                         <outlet property="youarehere2" destination="kDY-Ro-mII" id="VDO-xe-vtm"/>
@@ -601,6 +634,7 @@
     <resources>
         <image name="T-Rex" width="751" height="1335"/>
         <image name="backButton_home copy 3" width="311" height="314"/>
+        <image name="chestLocked" width="285" height="193"/>
         <image name="cluebutton-6" width="446" height="491"/>
         <image name="homeButton_home" width="317" height="323"/>
         <image name="homepage" width="750" height="1334"/>
@@ -613,7 +647,7 @@
     </resources>
     <inferredMetricsTieBreakers>
         <segue reference="aCm-Qi-a63"/>
-        <segue reference="Bbf-Cl-hJU"/>
+        <segue reference="eUT-hx-6g7"/>
         <segue reference="cjC-Zz-Nck"/>
     </inferredMetricsTieBreakers>
 </document>

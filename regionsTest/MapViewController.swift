@@ -17,6 +17,9 @@ class MapViewController: UIViewController {
     var foundItem: String?
     let dinos = buildDinos()
     var isShowing = false
+    let loader = loadObjects()
+
+
     
     @IBOutlet weak var myMap: MKMapView!
     
@@ -24,6 +27,11 @@ class MapViewController: UIViewController {
     @IBOutlet weak var youarehere1: UIImageView!
     @IBOutlet weak var youarehere2: UIImageView!
     @IBOutlet weak var youarehere3: UIImageView!
+    @IBOutlet weak var chest: UIImageView!
+    @IBOutlet weak var chest1: UIImageView!
+    @IBOutlet weak var chest2: UIImageView!
+    
+    
     
     let locationManager = CLLocationManager()
     
@@ -38,6 +46,19 @@ class MapViewController: UIViewController {
         for dino in dinos {
             locationManager.startMonitoringForRegion(dino.region)
         }
+        
+        if loader.hasFoundObject("T-Rex") {
+            chest.image = UIImage(named: "chestT-Rex")
+        }
+        
+        if loader.hasFoundObject("Teradaxtyl") {
+            chest1.image = UIImage(named: "chestTeradaxtyl")
+        }
+        
+        if loader.hasFoundObject("Eoraptor") {
+            chest2.image = UIImage(named: "chestEoraptor")
+        }
+
         
     }
     
