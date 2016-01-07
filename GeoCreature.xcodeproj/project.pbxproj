@@ -1,0 +1,309 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A034F8631BF4E49F0073CF35 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034F8621BF4E49F0073CF35 /* DetailViewController.swift */; };
+		A037C2FF1C3C04CA0033E54F /* MoreFactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037C2FE1C3C04CA0033E54F /* MoreFactsViewController.swift */; };
+		A054C9A21BE95919004C43BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A054C9A11BE95919004C43BF /* AppDelegate.swift */; };
+		A054C9A41BE95919004C43BF /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A054C9A31BE95919004C43BF /* MapViewController.swift */; };
+		A054C9A71BE95919004C43BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A054C9A51BE95919004C43BF /* Main.storyboard */; };
+		A054C9A91BE95919004C43BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A054C9A81BE95919004C43BF /* Assets.xcassets */; };
+		A08FEC8B1C0890380076C870 /* LogViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08FEC8A1C0890380076C870 /* LogViewController.swift */; };
+		A08FEC8D1C08909F0076C870 /* Dino.swift in Sources */ = {isa = PBXBuildFile; fileRef = A08FEC8C1C08909F0076C870 /* Dino.swift */; };
+		A0E8174C1C038AA500F78360 /* LoadObjects.swift in Sources */ = {isa = PBXBuildFile; fileRef = A0E8174B1C038AA500F78360 /* LoadObjects.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		A034F8621BF4E49F0073CF35 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		A037C2FE1C3C04CA0033E54F /* MoreFactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreFactsViewController.swift; sourceTree = "<group>"; };
+		A054C99E1BE95919004C43BF /* GeoCreature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoCreature.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A054C9A11BE95919004C43BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A054C9A31BE95919004C43BF /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		A054C9A61BE95919004C43BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A054C9A81BE95919004C43BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A054C9AD1BE95919004C43BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A054C9B31BE95A0E004C43BF /* Bournemouth-Loop.gpx */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Bournemouth-Loop.gpx"; sourceTree = "<group>"; };
+		A08FEC8A1C0890380076C870 /* LogViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LogViewController.swift; sourceTree = "<group>"; };
+		A08FEC8C1C08909F0076C870 /* Dino.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Dino.swift; sourceTree = "<group>"; };
+		A0E8174B1C038AA500F78360 /* LoadObjects.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadObjects.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A054C99B1BE95919004C43BF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A054C9951BE95919004C43BF = {
+			isa = PBXGroup;
+			children = (
+				A054C9B31BE95A0E004C43BF /* Bournemouth-Loop.gpx */,
+				A054C9A01BE95919004C43BF /* regionsTest */,
+				A054C99F1BE95919004C43BF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A054C99F1BE95919004C43BF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A054C99E1BE95919004C43BF /* GeoCreature.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A054C9A01BE95919004C43BF /* regionsTest */ = {
+			isa = PBXGroup;
+			children = (
+				A054C9A11BE95919004C43BF /* AppDelegate.swift */,
+				A054C9A31BE95919004C43BF /* MapViewController.swift */,
+				A037C2FE1C3C04CA0033E54F /* MoreFactsViewController.swift */,
+				A034F8621BF4E49F0073CF35 /* DetailViewController.swift */,
+				A08FEC8A1C0890380076C870 /* LogViewController.swift */,
+				A08FEC8C1C08909F0076C870 /* Dino.swift */,
+				A054C9A51BE95919004C43BF /* Main.storyboard */,
+				A0E8174B1C038AA500F78360 /* LoadObjects.swift */,
+				A054C9A81BE95919004C43BF /* Assets.xcassets */,
+				A054C9AD1BE95919004C43BF /* Info.plist */,
+			);
+			path = regionsTest;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A054C99D1BE95919004C43BF /* GeoCreature */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A054C9B01BE95919004C43BF /* Build configuration list for PBXNativeTarget "GeoCreature" */;
+			buildPhases = (
+				A054C99A1BE95919004C43BF /* Sources */,
+				A054C99B1BE95919004C43BF /* Frameworks */,
+				A054C99C1BE95919004C43BF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoCreature;
+			productName = regionsTest;
+			productReference = A054C99E1BE95919004C43BF /* GeoCreature.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A054C9961BE95919004C43BF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = "Hallam John Ager";
+				TargetAttributes = {
+					A054C99D1BE95919004C43BF = {
+						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = 39EWP9D78M;
+					};
+				};
+			};
+			buildConfigurationList = A054C9991BE95919004C43BF /* Build configuration list for PBXProject "GeoCreature" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A054C9951BE95919004C43BF;
+			productRefGroup = A054C99F1BE95919004C43BF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A054C99D1BE95919004C43BF /* GeoCreature */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A054C99C1BE95919004C43BF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A054C9A91BE95919004C43BF /* Assets.xcassets in Resources */,
+				A054C9A71BE95919004C43BF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A054C99A1BE95919004C43BF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A034F8631BF4E49F0073CF35 /* DetailViewController.swift in Sources */,
+				A037C2FF1C3C04CA0033E54F /* MoreFactsViewController.swift in Sources */,
+				A08FEC8B1C0890380076C870 /* LogViewController.swift in Sources */,
+				A054C9A41BE95919004C43BF /* MapViewController.swift in Sources */,
+				A08FEC8D1C08909F0076C870 /* Dino.swift in Sources */,
+				A0E8174C1C038AA500F78360 /* LoadObjects.swift in Sources */,
+				A054C9A21BE95919004C43BF /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		A054C9A51BE95919004C43BF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A054C9A61BE95919004C43BF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A054C9AE1BE95919004C43BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A054C9AF1BE95919004C43BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A054C9B11BE95919004C43BF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = regionsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hallam.regionsTest;
+				PRODUCT_NAME = GeoCreature;
+			};
+			name = Debug;
+		};
+		A054C9B21BE95919004C43BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				INFOPLIST_FILE = regionsTest/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.hallam.regionsTest;
+				PRODUCT_NAME = GeoCreature;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A054C9991BE95919004C43BF /* Build configuration list for PBXProject "GeoCreature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A054C9AE1BE95919004C43BF /* Debug */,
+				A054C9AF1BE95919004C43BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A054C9B01BE95919004C43BF /* Build configuration list for PBXNativeTarget "GeoCreature" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A054C9B11BE95919004C43BF /* Debug */,
+				A054C9B21BE95919004C43BF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A054C9961BE95919004C43BF /* Project object */;
+}
