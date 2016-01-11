@@ -40,6 +40,10 @@ class DetailViewController: UIViewController {
 
     }
     
+    @IBAction func backButton(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
     
     
 

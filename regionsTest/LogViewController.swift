@@ -29,6 +29,10 @@ class LogViewController: UIViewController  {
         }
     }
     
+    @IBAction func backButton(sender: AnyObject) {
+        dismissViewControllerAnimated(true, completion: nil)
+    }
+    
 }
 
 extension LogViewController: UITableViewDataSource {
