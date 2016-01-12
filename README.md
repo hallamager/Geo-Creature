@@ -8,3 +8,5 @@ and share their discoveries. Similar to digital hobby book.
 
 This work is licensed under the Creative Commons Attribution-NonCommercial 4.0 International License. 
 To view this license, visit: http://creativecommons.org/licenses/by-nc/4.0/.
+
+When running the project please run the app on an iPhone 6 settings and run the Bournemouth-Loop.
