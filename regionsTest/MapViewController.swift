@@ -10,6 +10,7 @@ import UIKit
 import MapKit
 import CoreLocation
 import AudioToolbox
+import AVFoundation
 
 class MapViewController: UIViewController {
     
@@ -18,6 +19,7 @@ class MapViewController: UIViewController {
     let dinos = buildDinos()
     var isShowing = false
     let loader = loadObjects()
+    var audioPlayer = AVAudioPlayer()
 
 
     
@@ -152,6 +154,25 @@ extension MapViewController: CLLocationManagerDelegate {
         if !isShowing {
             
             AudioServicesPlayAlertSound(kSystemSoundID_Vibrate)
+            
+            let myFilePathString = NSBundle.mainBundle().pathForResource("trexRoar", ofType: "wav")
+            
+            if let myFilePathString = myFilePathString {
+                
+                let myFilePathURL = NSURL (fileURLWithPath: myFilePathString)
+                
+                do{
+                    try audioPlayer = AVAudioPlayer(contentsOfURL: myFilePathURL)
+                    
+                    audioPlayer.play()
+                    print("Playing")
+                    
+                }catch
+                {
+                    print("error")
+                }
+            }
+            
         
             let refreshAlert = UIAlertController(title: "Discovery!", message: "You discovered a \(region.identifier) fossil, Congraulations", preferredStyle: UIAlertControllerStyle.Alert)
             

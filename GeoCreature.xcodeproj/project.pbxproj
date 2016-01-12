@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		A009E7991C445FC80069626A /* trexRoar.wav in Resources */ = {isa = PBXBuildFile; fileRef = A009E7981C445FC80069626A /* trexRoar.wav */; };
+		A009E79B1C4514410069626A /* JurassicCoastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A009E79A1C4514410069626A /* JurassicCoastViewController.swift */; };
 		A034F8631BF4E49F0073CF35 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A034F8621BF4E49F0073CF35 /* DetailViewController.swift */; };
 		A037C2FF1C3C04CA0033E54F /* MoreFactsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A037C2FE1C3C04CA0033E54F /* MoreFactsViewController.swift */; };
 		A054C9A21BE95919004C43BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A054C9A11BE95919004C43BF /* AppDelegate.swift */; };
@@ -19,6 +21,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		A009E7981C445FC80069626A /* trexRoar.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = trexRoar.wav; sourceTree = "<group>"; };
+		A009E79A1C4514410069626A /* JurassicCoastViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = JurassicCoastViewController.swift; sourceTree = "<group>"; };
 		A034F8621BF4E49F0073CF35 /* DetailViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		A037C2FE1C3C04CA0033E54F /* MoreFactsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MoreFactsViewController.swift; sourceTree = "<group>"; };
 		A054C99E1BE95919004C43BF /* GeoCreature.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoCreature.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -68,9 +72,11 @@
 				A054C9A31BE95919004C43BF /* MapViewController.swift */,
 				A037C2FE1C3C04CA0033E54F /* MoreFactsViewController.swift */,
 				A034F8621BF4E49F0073CF35 /* DetailViewController.swift */,
+				A009E7981C445FC80069626A /* trexRoar.wav */,
 				A08FEC8A1C0890380076C870 /* LogViewController.swift */,
 				A08FEC8C1C08909F0076C870 /* Dino.swift */,
 				A054C9A51BE95919004C43BF /* Main.storyboard */,
+				A009E79A1C4514410069626A /* JurassicCoastViewController.swift */,
 				A0E8174B1C038AA500F78360 /* LoadObjects.swift */,
 				A054C9A81BE95919004C43BF /* Assets.xcassets */,
 				A054C9AD1BE95919004C43BF /* Info.plist */,
@@ -139,6 +145,7 @@
 			files = (
 				A054C9A91BE95919004C43BF /* Assets.xcassets in Resources */,
 				A054C9A71BE95919004C43BF /* Main.storyboard in Resources */,
+				A009E7991C445FC80069626A /* trexRoar.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -152,6 +159,7 @@
 				A034F8631BF4E49F0073CF35 /* DetailViewController.swift in Sources */,
 				A037C2FF1C3C04CA0033E54F /* MoreFactsViewController.swift in Sources */,
 				A08FEC8B1C0890380076C870 /* LogViewController.swift in Sources */,
+				A009E79B1C4514410069626A /* JurassicCoastViewController.swift in Sources */,
 				A054C9A41BE95919004C43BF /* MapViewController.swift in Sources */,
 				A08FEC8D1C08909F0076C870 /* Dino.swift in Sources */,
 				A0E8174C1C038AA500F78360 /* LoadObjects.swift in Sources */,
