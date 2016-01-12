@@ -25,7 +25,7 @@ class MapViewController: UIViewController {
     
     @IBOutlet weak var myMap: MKMapView!
     
-    //you are here images
+    //you are here images and chest images
     @IBOutlet weak var youarehere1: UIImageView!
     @IBOutlet weak var youarehere2: UIImageView!
     @IBOutlet weak var youarehere3: UIImageView!
@@ -45,9 +45,13 @@ class MapViewController: UIViewController {
 
         myMap.setUserTrackingMode(.Follow, animated: true)
         
+        //start updating the location of the user
+        
         for dino in dinos {
             locationManager.startMonitoringForRegion(dino.region)
         }
+        
+        //chests on home page will changes when user has found object.
         
         if loader.hasFoundObject("T-Rex") {
             chest.image = UIImage(named: "chestT-Rex")
@@ -64,6 +68,8 @@ class MapViewController: UIViewController {
         
     }
     
+    //notify me when user has entered and exited location
+    
     override func viewWillAppear(animated: Bool) {
         super.viewWillAppear(animated)
         for dino in dinos {
@@ -74,6 +80,8 @@ class MapViewController: UIViewController {
         
     }
     
+    //prepaer segue to detailviewcontroller
+    
     override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
         if segue.identifier == "Next" {
             let vc = segue.destinationViewController as! DetailViewController
@@ -81,6 +89,8 @@ class MapViewController: UIViewController {
             isShowing = true
         }
     }
+    
+    //clue pop up for each island
     
     @IBAction func clueAlert() {
         
@@ -123,6 +133,7 @@ class MapViewController: UIViewController {
         
     }
     
+    //how to play button.
     
     @IBAction func howToPlay(sender: UIButton) {
         
@@ -140,12 +151,16 @@ class MapViewController: UIViewController {
     
 }
 
+//notify me when user exited location
+
+
 extension MapViewController: CLLocationManagerDelegate {
     
     func locationManager(manager: CLLocationManager, didExitRegion region: CLRegion) {
         print("Leaving \(region.identifier)")
         
-        
+        //notify me when entered exited location
+
     }
     
     func locationManager(manager: CLLocationManager, didEnterRegion region: CLRegion) {
@@ -153,7 +168,11 @@ extension MapViewController: CLLocationManagerDelegate {
         
         if !isShowing {
             
+            //vibration alert.
+            
             AudioServicesPlayAlertSound(kSystemSoundID_Vibrate)
+            
+            //sound effect alert.
             
             let myFilePathString = NSBundle.mainBundle().pathForResource("trexRoar", ofType: "wav")
             
@@ -173,6 +192,7 @@ extension MapViewController: CLLocationManagerDelegate {
                 }
             }
             
+            //alert that tells user a discovery has been found.
         
             let refreshAlert = UIAlertController(title: "Discovery!", message: "You discovered a \(region.identifier) fossil, Congraulations", preferredStyle: UIAlertControllerStyle.Alert)
             
@@ -188,6 +208,8 @@ extension MapViewController: CLLocationManagerDelegate {
                 
                 
             }))
+            
+            //you are hear code.
             
             presentViewController(refreshAlert, animated: true, completion: nil)
             

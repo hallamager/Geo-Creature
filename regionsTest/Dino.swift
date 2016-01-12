@@ -20,11 +20,12 @@ class Dino {
     
 }
 
+//building a class for each dinosaur.
 
 func buildDinos() -> [Dino] {
     var dinos = [Dino]()
     
-    let tRex = Dino(name: "T-Rex", fact: "I have 12-13 feet tall at hips (the hips would have been twice as tall as a tall man.", location: CLLocationCoordinate2D(latitude: 50.719799, longitude: -1.879439))
+    let tRex = Dino(name: "T-Rex", fact: "I have 12-13 feet tall hips. My hips would have been twice as tall as a tall man.", location: CLLocationCoordinate2D(latitude: 50.719799, longitude: -1.879439))
     tRex.facts = ["I' am as heavy as about 200 10-year-old children.", "I have tiny arm that dont even reach my mouth", "I' am extremely good at sniffing out food. The part of my brain used for smelling is as big as an orange.", "I' am even longer and taller than a double decker bus."]
     dinos.append(tRex)
     

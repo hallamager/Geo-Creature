@@ -10,6 +10,8 @@ class MoreFactsViewController: UIViewController  {
         super.viewDidLoad()
     }
     
+    //back button code.
+    
     @IBAction func backButton(sender: AnyObject) {
         dismissViewControllerAnimated(true, completion: nil)
     }
@@ -17,6 +19,8 @@ class MoreFactsViewController: UIViewController  {
 
     
 }
+
+//more facts table view code. Table view will change information for the specific dinosuar.
 
 extension MoreFactsViewController: UITableViewDataSource {
     
